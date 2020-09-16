@@ -29,6 +29,7 @@ if __name__ == '__main__':
     stream = Stream(auth, l)
 
     #This line filter Twitter Streams to capture data by the keywords: 'python', 'javascript', 'ruby'
-    stream.filter(track=['Online Games', 'MOBA', 'MMORPG', 'MMO',\
-        'World of Warcraft', 'Elder Scrolls Online', 'Guild Wars 2', 'Final Fantasy 14', 'Black Desert Online', 'RuneScape',\
-        'Dota 2', 'League of Legends', 'Area of Valor', 'Heros of the Strom'])
+    stream.filter(track=["presidential election", "2020 election", "Trump re-election", "Biden 2020"])
+    # stream.filter(track=['Online Games', 'MOBA', 'MMORPG', 'MMO',\
+    #     'World of Warcraft', 'Elder Scrolls Online', 'Guild Wars 2', 'Final Fantasy 14', 'Black Desert Online', 'RuneScape',\
+    #     'Dota 2', 'League of Legends', 'Area of Valor', 'Heros of the Strom'])
